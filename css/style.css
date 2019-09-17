@@ -214,3 +214,111 @@ nav
 {
 	margin-bottom: 35px;
 }
+*{
+    font-family: sans-serif
+}
+
+.cotainer{
+    margin: auto
+}
+::selection{
+    background-color: rgba(0, 0, 0, 0.585);
+    color: #FFFFFF
+}
+
+    /********************************************************** start services**********************************************************/
+.services{
+    padding: 120px 0
+}
+
+.services h2{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 46px;
+    letter-spacing: 0.04em;
+    font-family:poppins;
+
+}
+.services h4{
+    line-height: 21px;
+    font-size: 14px;
+    font-family:poppins;
+
+}
+.services .services-info h4{
+    font-weight: 600;
+    margin-bottom: 18px;
+    font-family:poppins;
+
+}
+.services .services-info p{
+    color: #4c4c4c;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+    font-family:poppins;
+    font-size: 14px
+
+}
+
+
+
+    /********************************************************** End services**********************************************************/
+    /********************************************************** start client**********************************************************/
+.client{
+padding: 100px 0;
+background-image: url('../img/testimonials_bg.jpg');
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+
+}
+.client .item-description{
+    color: #fff;
+    margin-right: 20px;
+    width: 70%;
+    margin: auto;
+    font-family:poppins;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+
+}
+@media(max-width: 768px){
+    .client .item-description{
+width: 100%;
+margin: auto;
+font-size: 14px
+}
+    
+}
+
+.client h4{
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.025em;
+    font-family:poppins;
+
+}
+.client h4 span{
+    color: #ccc;
+    font-weight: 600;
+}
+.client .carousel-indicators li{
+    width: 10px;
+    border-radius: 50%;
+    height: 10px;
+    background-color: #7f7f7f;
+    margin-right: 10px
+}
+.client .carousel-indicators li.active{
+
+    background-color: #fff
+}
+.client .carousel-indicators li:hover{
+  
+    background-color: #fff
+}
+
+    /********************************************************** End client**********************************************************/
+  
