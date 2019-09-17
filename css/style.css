@@ -226,6 +226,88 @@ nav
     color: #FFFFFF
 }
 
+
+/*      my work section    */
+
+.section2 {
+  background-color: #FBFBFB;
+
+}
+.mypills li{
+    margin: 0 10px;
+}
+.mypills li a{
+    color: black;
+}
+.mypills li a:hover{
+    color: white;
+    background-color: black;
+}
+.mypills .nav-link.active,
+.mypills .show > .nav-link {
+  color: white;
+  background-color: black;
+}
+.mylink
+{
+    position: relative;
+    display: block;
+}
+.img
+{
+    object-fit: cover;
+    width:100%;
+}
+.sec2overlay
+{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: all 1s;
+}
+.mylink:hover .sec2overlay
+{
+    background-color: rgba(0,0,0,.8);
+    opacity:1;
+}
+.mymodelSize
+{
+    max-width:100% !important;
+}
+.myicon{
+    font-size: 40px;
+    color: black
+}
+
+/*      my work section    */
+
+/*      numbers section     */
+
+.section3{
+    background-image: url("../img/facts_bg.jpg");
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;       
+    overflow: hidden;
+}
+.section3 span {
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.section3 h4 {
+  color: #fff;
+}
+
+
+/*    number section        */
+
+
     /********************************************************** start services**********************************************************/
 .services{
     padding: 120px 0
