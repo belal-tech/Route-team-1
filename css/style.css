@@ -474,3 +474,59 @@ section.logos{
 	background-color: black
   }
   /* end logos section */
+/*form section*/
+.part-form
+{
+    height: auto ;
+}
+.input-porder
+{
+    border: none;
+}
+.text-contact
+{
+    top: 30%;
+    left: 35%;
+
+}
+a
+{
+    color: gray; !important
+}
+.forth-part
+{
+    height: auto;
+}
+. min-cursul
+{
+    top: 50%;
+    left: 50%;
+}
+.min-marg
+{
+  margin-left: 200px;
+}
+@media screen and (max-width:992px)
+{
+  .min-marg
+{
+  margin-left: 100px;
+}
+}
+.min-bord-solid
+{
+    border: 5px solid #a94442;
+}
+
+.part8
+{
+ background-color: gray;
+}
+i
+{
+    font-size: 39px;
+}
+.iicon
+{
+    color: rgba(0,0,0,.4); !important
+}
